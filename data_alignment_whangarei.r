@@ -4,7 +4,7 @@
 library(anytime)
 library(dplyr)
 
-whangarei_above = read.table("..\\Whangarei\\lightbar_ref_lghtbr_abv_Whangarei_ 22nd Jan 2019.dat", sep = ",", skip = 1, header = TRUE, stringsAsFactors = FALSE)
+whangarei_above = read.table("..\\Whangarei\\Lightbar_reference_lghtbr_abv_Whangarei 22nd Jan 2019.dat", sep = ",", skip = 1, header = TRUE, stringsAsFactors = FALSE)
 
 # remove unused columns
 whangarei_above$RECNBR = NULL
